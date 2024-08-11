@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sami Web Services</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Navigation-->
+  <div class="w3-top">
+      <div class="w3-bar w3-black">
+        <span class="branding w3-bar-item w3-mobile">Sami Web Services</span>
+        <span class="w3-right w3-mobile">
+        <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-red">Home</a>
+        <a href="#about" class="w3-bar-item w3-button w3-mobile w3-hover-red">About</a>
+        <a href="#services" class="w3-bar-item w3-button w3-mobile w3-hover-red">Services</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-red">Contact</a>
+        </span>
+      </div>
+  </div>
+
+
+  <!--Showcase-->
+<section class="showcase">
+  <div class="w3-container w3-center">
+    <h1 class="w3-text-shadow w3-animate-opacity">Go Anywhere</h1>
+    <hr>
+    <p class="w3-animate-opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem, maiores rerum facilis distinctio tempore optio omnis, ex aut incidunt expedita, officia cum quisquam laboriosam architecto maxime amet nesciunt dignissimos?</p>
+    <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-red w3-large w3-opacity">Start Here</button>
+  </div>
+</section>  
+
+<!--Section 1-->
+<section class="section w3-red w3-hover-opacity">
+  <div class="w3-container w3-center">
+    <i class="fa fa-home"></i>
+    <h2>Welcome Home</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt sint explicabo aut perferendis, nemo, quod, dolores rerum facere quisquam adipisci iure sed asperiores fugiat repudiandae a repellendus illo obcaecati?</p>
+  </div>
+</section>
+
+
+<!--Section 2-->
+<section class="section w3-light-grey w3-hover-opacity">
+  <div class="w3-container w3-center">
+    <i class="fa fa-cog"></i>
+    <h2>Let's Begin</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt sint explicabo aut perferendis, nemo, quod, dolores rerum facere quisquam adipisci iure sed asperiores fugiat repudiandae a repellendus illo obcaecati?</p>
+  </div>
+</section>
+
+<!--About-->
+<section id="about" class="section ">
+  <div class="w3-container ">
+    <div class="w3-row-padding">
+      <div class="w3-col m5">
+        <img src="img/dicuss.jpg" alt="">
+      </div>
+        <div class="w3-col m7">
+            <button onclick="accFunction('What')" class="w3-button w3-block w3-black w3-left-align">
+            What We Do
+          </button>
+              
+          <div id="What" class="w3-container w3-show">
+            <h3>We Do It All</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam voluptas excepturi debitis amet reprehenderit placeat recusandae eligendi. Magni praesentium sed dicta nesciunt nulla. Provident quae magnam placeat voluptate eligendi.sit amet consectetur adipisicing elit. Perferendis numquam voluptas excepturi debitis amet reprehenderit placeat recusandae eligendi. Magni praesentium sed dicta nesciunt nulla. Provident quae magnam placeat voluptate eligendi.</p>
+          </div>     
+          
+          <button onclick="accFunction('who')" class="w3-button w3-block  w3-black w3-left-align">
+           Who We Are
+          </button>
+              
+          <div id="who" class="w3-container w3-hide">
+            <h3>We Are Sami</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam voluptas excepturi debitis amet reprehenderit placeat recusandae eligendi. Magni praesentium sed dicta nesciunt nulla. Provident quae magnam placeat voluptate eligendi.sit amet consectetur adipisicing elit. Perferendis numquam voluptas excepturi debitis amet reprehenderit placeat recusandae eligendi. Magni praesentium sed dicta nesciunt nulla. Provident quae magnam placeat voluptate eligendi.</p>
+          </div>    
+          <br>
+
+          <button onclick="accFunction('Where')" class="w3-button w3-block  w3-black w3-left-align">
+           Where We Are
+          </button>
+              
+          <div id="Where" class="w3-container w3-hide">
+            <h3>We Are Everywhere</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam voluptas excepturi debitis amet reprehenderit placeat recusandae eligendi. Magni praesentium sed dicta nesciunt nulla. Provident quae magnam placeat voluptate eligendi.sit amet consectetur adipisicing elit. Perferendis numquam voluptas excepturi debitis amet reprehenderit placeat recusandae eligendi.</p>
+          </div>    
+       </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--Service Heading-->
+<section id="services" class="section w3-red w3-hover-opacity">
+  <div class="w3-container w3-center">
+    <h1 class="w3-text-shadow">Our Services</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt sint explicabo aut perferendis, nemo, quod, dolores rerum facere quisquam adipisci iure sed asperiores fugiat repudiandae a repellendus illo obcaecati?</p>
+  </div>
+</section>
+
+
+<!--Service-->
+<section class="section w3-light-grey ">
+  <div class="w3-container w3-center">
+     <div class="w3-row">
+      <div class="w3-col m3">
+        <i class="fa fa-comment w3-red w3-paddding-small w3-round-xlarge"></i>
+        <h3>Internet Marketing</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="w3-col m3">
+        <i class="fa fa-search w3-red w3-paddding-small w3-round-xlarge"></i>
+        <h3>SEO</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="w3-col m3">
+        <i class="fa fa-cubes w3-red w3-paddding-small w3-round-xlarge"></i>
+        <h3>Software Development</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="w3-col m3">
+        <i class="fa fa-cloud w3-red w3-paddding-small w3-round-xlarge"></i>
+        <h3>Cloud Hosting</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+     </div>
+  </div>
+</section>
+
+
+
+<!--Contact Heading-->
+<section id="contact" class="section w3-dark-grey w3-hover-opacity">
+  <div class="w3-container w3-center">
+    <h1 class="w3-text-shadow">GET IN TOUCH</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt sint explicabo aut perferendis, nemo, quod, dolores rerum facere quisquam adipisci iure sed asperiores fugiat repudiandae a repellendus illo obcaecati?</p>
+  </div>
+</section>
+
+<!--Contact-->
+<section class="section ">
+  <div class="w3-container ">
+    <div class="w3-card-4">
+      <div class="w3-container w3-dark-grey">
+        <h2>Contact Us</h2>
+      </div>
+        <form class="w3-container w3-paddding-xlarge">
+        <label class="w3-label"> Name</label>
+        <input class="w3-input" type="text">
+        <label class="w3-label">Email</label>
+        <input class="w3-input" type="text">
+        <label class="w3-input">Message</label>
+        <textarea class="w3-input w3-border" style="resize:none"></textarea>
+        <br>
+        <button type="submit" class="w3-botton">Submit</button>
+        <br><br>
+        </form>
+      </div>
+  </div>
+</section>
+
+
+<!---Footer-->
+<footer class="w3-black w3-padding w3-xlarge w3-center">
+  <p>SAMI Web Services &copy; 2024</p>
+</footer>
+
+
+
+<!--Modal--->
+<div id="start-modal" class="w3-modal">
+  <div class="w3-modal-content">
+    <header class="w3-container w3-red">
+      <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-btn">&times;</span>
+      <h2>Get Started</h2>
+    </header>
+
+     <div class="w3-container">
+      <form>
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name">
+          <label>Username</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username">
+          <label>Password</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Password">
+          <label>Confirm Password</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Password">
+          <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button>
+        </div>
+      </form>
+     </div>
+  </div>
+</div>
+
+
+
+
+
+
+<script>
+    function accFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+</script>
+
+  
+</body>
+</html>
